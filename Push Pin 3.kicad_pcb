@@ -944,7 +944,7 @@
 		(descr "Inductor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "inductor")
 		(property "Reference" "L1"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cdc6633c-8c48-4719-b00c-1b667a9e0dd8")
@@ -956,7 +956,7 @@
 			)
 		)
 		(property "Value" "47uH"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "705a36d5-9e03-478d-8203-2d253652c2a3")
@@ -1112,7 +1112,7 @@
 			(uuid "a73a88a1-f116-40d3-b857-9ec87b808dc2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "950ad0d8-092e-47e3-9202-b1411c9f9e71")
 			(effects
@@ -1161,7 +1161,7 @@
 		(descr "PTC Resettable Fuse, Ihold = 0.5A, Itrip=0.92A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf")
 		(tags "ptc resettable fuse polyfuse THT")
 		(property "Reference" "F3"
-			(at 2.55 -1.9 360)
+			(at 2.55 -1.9 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "80153460-a5a6-45b9-a0df-60ee6f070a0e")
@@ -1173,7 +1173,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 2.55 3.1 360)
+			(at 2.55 3.1 0)
 			(layer "F.Fab")
 			(uuid "9b0784dc-37a1-4c5b-98b7-065d43dff6e4")
 			(effects
@@ -1368,7 +1368,7 @@
 			(uuid "97339fac-8f3a-4e01-ba9c-278021dbe6aa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.55 0.6 360)
+			(at 2.55 0.6 0)
 			(layer "F.Fab")
 			(uuid "f1b31d50-e737-468c-854f-98f1b5620af7")
 			(effects
@@ -2313,7 +2313,7 @@
 		(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/")
 		(tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
 		(property "Reference" "U1"
-			(at 0 -6.65 360)
+			(at 0 -6.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "e7141ed1-dba0-4667-bff1-0f3efd6896e4")
@@ -2325,7 +2325,7 @@
 			)
 		)
 		(property "Value" "LM2596S-ADJ"
-			(at 0 6.65 360)
+			(at 0 6.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1bebdb8-155b-4bc1-8db9-0d0d53ef7f3d")
@@ -2337,7 +2337,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-263-5_TabPin3"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "70633677-2b46-4d25-bd05-1d712d939e26")
@@ -2349,7 +2349,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ae87d40-012f-499b-a2f7-ba3b5851f752")
@@ -2361,7 +2361,7 @@
 			)
 		)
 		(property "Description" "Adjustable 3A Step-Down Voltage Regulator, TO-263"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0362e211-1b38-4ed4-8b72-ce219c3309fa")
@@ -2700,7 +2700,7 @@
 			(uuid "c2ff9bae-2c71-42fb-b90a-8ffa6ca87876")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "19a9e574-954a-41c7-9e56-8854ba2f6ea3")
 			(effects
@@ -2829,7 +2829,7 @@
 		(descr "PTC Resettable Fuse, Ihold = 0.5A, Itrip=0.92A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf")
 		(tags "ptc resettable fuse polyfuse THT")
 		(property "Reference" "F4"
-			(at 2.55 -1.9 360)
+			(at 2.55 -1.9 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8a43e800-8f55-47aa-a9a1-fd96fa5e58bf")
@@ -2841,7 +2841,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 2.55 3.1 360)
+			(at 2.55 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "24e0f1d9-c476-4fd6-8340-986c55d123e0")
@@ -3037,7 +3037,7 @@
 			(uuid "fbd9d39d-cf36-4f92-b775-be8eedbb9b93")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.55 0.6 360)
+			(at 2.55 0.6 0)
 			(layer "F.Fab")
 			(uuid "7dddda20-a721-49c5-94ab-50fd0886964b")
 			(effects
@@ -3086,7 +3086,7 @@
 		(descr "PTC Resettable Fuse, Ihold = 0.5A, Itrip=0.92A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf")
 		(tags "ptc resettable fuse polyfuse THT")
 		(property "Reference" "F5"
-			(at 2.55 -1.9 360)
+			(at 2.55 -1.9 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d15e9d97-da34-4afa-9afc-1d11d2a63ee7")
@@ -3098,7 +3098,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 2.55 3.1 360)
+			(at 2.55 3.1 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1dfa36d-ca34-4be1-9697-06dddd581aef")
@@ -3294,7 +3294,7 @@
 			(uuid "4cf01294-b87e-470d-a84f-b4b2f0017cbf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.55 0.6 360)
+			(at 2.55 0.6 0)
 			(layer "F.Fab")
 			(uuid "4709e9d0-2091-41a8-9a36-ac51e2ee4c21")
 			(effects
@@ -3877,7 +3877,7 @@
 		(descr "PTC Resettable Fuse, Ihold = 3.0A, Itrip=6.0A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf")
 		(tags "ptc resettable fuse polyfuse THT")
 		(property "Reference" "F1"
-			(at 2.55 -1.9 360)
+			(at 2.55 -1.9 0)
 			(layer "F.SilkS")
 			(uuid "6c9c4bc6-1368-41c6-ab10-1838352b057c")
 			(effects
@@ -3888,7 +3888,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 2.55 3.1 360)
+			(at 2.55 3.1 0)
 			(layer "F.Fab")
 			(uuid "3aa9ca06-0443-4ced-b7b9-7b9fc361bcc5")
 			(effects
@@ -4083,7 +4083,7 @@
 			(uuid "195b0880-9320-4323-ba79-5ecd8bbe1b35")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.55 0.6 360)
+			(at 2.55 0.6 0)
 			(layer "F.Fab")
 			(uuid "1e90644d-9d20-477a-9bc4-99f369ff13a7")
 			(effects
@@ -4478,7 +4478,7 @@
 		(descr "Potentiometer, horizontal, Bourns 3214G, https://www.bourns.com/docs/Product-Datasheets/3214.pdf")
 		(tags "Potentiometer horizontal Bourns 3214G")
 		(property "Reference" "R2"
-			(at 0 -3.65 360)
+			(at 0 -3.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "fa2eed7f-ab1c-43a4-8a9c-d6d2e2daf8a6")
@@ -4490,7 +4490,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 0 3.65 360)
+			(at 0 3.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5ff8590-bb7a-4add-8748-c5e2842eee3f")
@@ -4816,7 +4816,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b8772b96-11ac-4a1e-9160-f0a85d0e516f")
@@ -4828,7 +4828,7 @@
 			)
 		)
 		(property "Value" "150uF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d629877-3231-4c97-92e7-46f2ac020a8c")
@@ -4984,7 +4984,7 @@
 			(uuid "0e9ab374-3391-4404-a8e1-189834cfeed9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b582d309-329f-44de-9a72-9c57d3e00873")
 			(effects
