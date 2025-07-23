@@ -1935,7 +1935,7 @@
 		(uuid "46aaf315-823e-4b7a-8c8c-1dedfc3064d6")
 	)
 	(junction
-		(at 60.96 53.34)
+		(at 64.77 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aed786d-e75a-4fa8-bad6-97fc7fbb9f0c")
@@ -1977,7 +1977,7 @@
 		(uuid "7c740694-088c-47a3-834d-159f56912e5c")
 	)
 	(junction
-		(at 68.58 43.18)
+		(at 72.39 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "851897e5-cb0b-47c7-a710-17aea45a5010")
@@ -2043,7 +2043,7 @@
 		(uuid "fec42fbb-731e-4ddd-8aff-4d4cf19885d8")
 	)
 	(no_connect
-		(at 50.8 48.26)
+		(at 54.61 48.26)
 		(uuid "0771353b-08a8-4d30-afe0-86fd0e9c3163")
 	)
 	(no_connect
@@ -2066,7 +2066,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 53.34) (xy 60.96 54.61)
+			(xy 64.77 53.34) (xy 64.77 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2126,7 +2126,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 43.18) (xy 68.58 43.18)
+			(xy 86.36 43.18) (xy 72.39 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2156,7 +2156,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 45.72) (xy 40.64 45.72)
+			(xy 39.37 45.72) (xy 44.45 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2256,7 +2256,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 52.07) (xy 68.58 53.34)
+			(xy 72.39 52.07) (xy 72.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2386,7 +2386,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 43.18) (xy 55.88 43.18)
+			(xy 54.61 43.18) (xy 59.69 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2406,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 53.34) (xy 68.58 53.34)
+			(xy 64.77 53.34) (xy 72.39 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2426,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 43.18) (xy 97.79 43.18)
+			(xy 93.98 43.18) (xy 101.6 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 68.58 43.18)
+			(xy 69.85 43.18) (xy 72.39 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2586,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 43.18) (xy 68.58 44.45)
+			(xy 72.39 43.18) (xy 72.39 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 50.8) (xy 60.96 53.34)
+			(xy 64.77 50.8) (xy 64.77 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2767,8 +2767,8 @@
 		(uuid 58bbb0d7-5bc7-49c4-b2ba-a21445a98a06)
 	)
 	(rectangle
-		(start 12.7 26.67)
-		(end 111.76 68.58)
+		(start 16.51 26.67)
+		(end 115.57 68.58)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2789,6 +2789,18 @@
 			(type none)
 		)
 		(uuid 8763b6d7-b64d-45b4-ae09-a890949112dc)
+	)
+	(rectangle
+		(start 16.002 71.628)
+		(end 119.126 156.464)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aed57140-712c-4e03-874f-4eae54dc55c7)
 	)
 	(rectangle
 		(start 152.4 58.42)
@@ -2828,7 +2840,7 @@
 	)
 	(text "Maximum current: 3.5A \nTypical current: 2.3 A"
 		(exclude_from_sim no)
-		(at 76.2 35.306 0)
+		(at 80.01 35.306 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2839,7 +2851,7 @@
 	)
 	(text "Protection polarité\ninverse\n"
 		(exclude_from_sim no)
-		(at 61.468 32.258 0)
+		(at 65.278 32.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2894,6 +2906,8 @@
 		(effects
 			(font
 				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 		)
 		(uuid "3c2ee9eb-72a4-41f6-a2a2-14ae323c7aa8")
@@ -2930,10 +2944,12 @@
 	)
 	(text "EasyMini"
 		(exclude_from_sim no)
-		(at 100.838 117.856 0)
+		(at 103.886 115.57 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
 			)
 		)
 		(uuid "50af0b83-3ad7-44a8-b364-d907b9f236bd")
@@ -2951,7 +2967,7 @@
 	)
 	(text "SPDT switch pin configuration:\nFront C NO NC Back\nPins: 1 2  3\n"
 		(exclude_from_sim no)
-		(at 15.494 65.024 0)
+		(at 19.304 65.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2976,6 +2992,8 @@
 		(effects
 			(font
 				(size 4 4)
+				(thickness 0.8)
+				(bold yes)
 			)
 		)
 		(uuid "7ba7e10e-6e0e-4890-82f8-d89c62115062")
@@ -3017,6 +3035,8 @@
 		(effects
 			(font
 				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 		)
 		(uuid "a09f94eb-7bbe-4fbe-a624-522d027bfdb4")
@@ -3027,23 +3047,27 @@
 		(effects
 			(font
 				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 		)
 		(uuid "aa367cb5-f23d-4373-95e1-2a8d5ca7f6a4")
 	)
 	(text "Stratologger"
 		(exclude_from_sim no)
-		(at 99.06 80.01 0)
+		(at 98.298 77.724 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
 			)
 		)
 		(uuid "c15f6b39-2e29-4d92-ab58-74f4cd120f8d")
 	)
-	(text "To combine the two 9V batteries, solder JP1 and JP2 to connect the 2 negative ends and the two positive ends together."
+	(text "To combine the two 9V batteries, solder JP1 and JP2 to connect the 2 \nnegative ends and the two positive ends together."
 		(exclude_from_sim no)
-		(at 12.7 144.526 0)
+		(at 18.542 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3058,13 +3082,15 @@
 		(effects
 			(font
 				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 		)
 		(uuid "e975a69e-d384-4b66-b1a2-65b7abc784c4")
 	)
 	(text "Connecteur batterie Vin\n"
 		(exclude_from_sim no)
-		(at 13.97 31.496 0)
+		(at 17.78 31.496 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3075,7 +3101,7 @@
 	)
 	(global_label "7v4"
 		(shape input)
-		(at 97.79 43.18 0)
+		(at 101.6 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3085,7 +3111,7 @@
 		)
 		(uuid "619fdbf0-0390-4371-8efa-d9a4d27957e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.1618 43.18 0)
+			(at 107.9718 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +3403,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 45.72 45.72 0)
+		(at 49.53 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3386,7 +3412,7 @@
 		(fields_autoplaced yes)
 		(uuid "08a7ea2a-bf55-48a8-a90f-3bfcb17993d0")
 		(property "Reference" "SW4"
-			(at 45.72 36.83 0)
+			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,7 +3421,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 45.72 39.37 0)
+			(at 49.53 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3430,7 @@
 			)
 		)
 		(property "Footprint" "Library:Omrun_SS-01GL13"
-			(at 45.72 45.72 0)
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3439,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 45.72 0)
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +3448,7 @@
 			)
 		)
 		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 45.72 45.72 0)
+			(at 49.53 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3564,7 @@
 	)
 	(symbol
 		(lib_id "Diode:BZV55C18")
-		(at 68.58 48.26 270)
+		(at 72.39 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3547,7 +3573,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fa16acb-4b7c-46a1-89ad-68d50c2c2b7a")
 		(property "Reference" "DZ1"
-			(at 71.12 46.9899 90)
+			(at 74.93 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3582,7 @@
 			)
 		)
 		(property "Value" "SZMMSZ4679T1G"
-			(at 71.12 49.5299 90)
+			(at 74.93 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3591,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 64.135 48.26 0)
+			(at 67.945 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,7 +3600,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/SZMMSZ4679T1G/5404986?s=N4IgTCBcDaIMoC0CyTEBYBsB2AnAFQEYBxAeTgGE8BaAOQBEQBdAXyA"
-			(at 68.58 48.26 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3583,7 +3609,7 @@
 			)
 		)
 		(property "Description" "18V, 500mW, 5%, Zener diode, MiniMELF"
-			(at 68.58 48.26 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +3618,7 @@
 			)
 		)
 		(property "Digikey" "SZMMSZ4679T1GOSCT-ND"
-			(at 68.58 48.26 0)
+			(at 72.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3617,7 +3643,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 58.42 0)
+		(at 64.77 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3626,7 +3652,7 @@
 		(fields_autoplaced yes)
 		(uuid "1022b471-2646-4768-9aed-b1c7007c3bd5")
 		(property "Reference" "PWR_R1"
-			(at 63.5 57.15 0)
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3661,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 63.5 59.69 0)
+			(at 67.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3644,7 +3670,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 59.182 58.42 90)
+			(at 62.992 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3679,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW1206100KFKEAHP/2222454"
-			(at 60.96 58.42 0)
+			(at 64.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3688,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 58.42 0)
+			(at 64.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3697,7 @@
 			)
 		)
 		(property "Digikey" "  541-100KUTR-ND"
-			(at 60.96 58.42 0)
+			(at 64.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +3954,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 60.96 45.72 90)
+		(at 64.77 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3937,7 +3963,7 @@
 		(fields_autoplaced yes)
 		(uuid "38bedf3f-c0bd-408f-8a3f-167138136d39")
 		(property "Reference" "Q1"
-			(at 60.96 36.83 90)
+			(at 64.77 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3945,7 +3971,7 @@
 			)
 		)
 		(property "Value" "NTR4101PT1G"
-			(at 60.96 39.37 90)
+			(at 64.77 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3979,7 @@
 			)
 		)
 		(property "Footprint" "NTR4101PT1G:SOT-23-3_1P4X3P040_ONS"
-			(at 58.42 40.64 0)
+			(at 62.23 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3962,7 +3988,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/NTR4101PT1G/687096?s=N4IgTCBcDaIHIBUBKAWAjABjQBQWg4gPIDKAwggLRwAiIAugL5A"
-			(at 73.66 45.72 0)
+			(at 77.47 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3997,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 60.96 45.72 0)
+			(at 64.77 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +4006,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 78.105 45.72 0)
+			(at 81.915 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +4015,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 80.01 45.72 0)
+			(at 83.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +4024,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 76.2 45.72 0)
+			(at 80.01 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +4033,7 @@
 			)
 		)
 		(property "Digikey" "NTR4101PT1GOSCT-ND"
-			(at 60.96 45.72 0)
+			(at 64.77 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4205,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 30.48 48.26 180)
+		(at 34.29 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4187,7 +4213,7 @@
 		(dnp no)
 		(uuid "48af160f-a05f-48e8-86b6-dbfe2b57d98d")
 		(property "Reference" "Batt_7v4"
-			(at 27.94 48.26 0)
+			(at 31.75 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,7 +4222,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 27.94 45.72 0)
+			(at 31.75 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +4231,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
-			(at 30.48 48.26 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 48.26 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +4249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 48.26 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4258,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 30.48 48.26 0)
+			(at 34.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5268,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 48.26 0)
+		(at 39.37 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5250,7 +5276,7 @@
 		(dnp no)
 		(uuid "b07f954b-fea6-43d6-b90b-0d55b404a618")
 		(property "Reference" "#PWR09"
-			(at 35.56 54.61 0)
+			(at 39.37 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 52.07 0)
+			(at 39.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +5293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 48.26 0)
+			(at 39.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 48.26 0)
+			(at 39.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5311,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 48.26 0)
+			(at 39.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5718,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 86.36 43.18 90)
+		(at 90.17 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5701,7 +5727,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbb6ee8d-04d3-4342-93cb-c87a6a86dd07")
 		(property "Reference" "F1"
-			(at 86.36 36.83 90)
+			(at 90.17 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5736,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 86.36 39.37 90)
+			(at 90.17 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5745,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT070"
-			(at 86.36 44.958 90)
+			(at 90.17 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 43.18 0)
+			(at 90.17 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5763,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 86.36 43.18 0)
+			(at 90.17 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6275,7 +6301,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 62.23 0)
+		(at 64.77 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6283,7 +6309,7 @@
 		(dnp no)
 		(uuid "f79d4938-578b-4f44-ad54-9dc3e47a603c")
 		(property "Reference" "#PWR010"
-			(at 60.96 68.58 0)
+			(at 64.77 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6318,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 66.04 0)
+			(at 64.77 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6300,7 +6326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6309,7 +6335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6344,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 62.23 0)
+			(at 64.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
