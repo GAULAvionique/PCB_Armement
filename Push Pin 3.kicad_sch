@@ -3415,16 +3415,16 @@
 			(uuid "1e75ac7d-5cf4-4a0d-9c81-ad6eec409264")
 		)
 		(pin "5"
-			(uuid "5b8b472d-46ee-4815-956f-5a85bfa52cda")
+			(uuid "5b8b472d-46ee-4815-956f-5a85bfa52cdb")
 		)
 		(pin "4"
-			(uuid "e33e5a47-a109-4d50-a3bd-37dc7afa1894")
+			(uuid "e33e5a47-a109-4d50-a3bd-37dc7afa1895")
 		)
 		(pin "2"
 			(uuid "f68ddcbb-592a-42e2-b8b9-58439c1582a6")
 		)
 		(pin "6"
-			(uuid "78fc5403-340c-4162-9613-f9c19ad4c12f")
+			(uuid "78fc5403-340c-4162-9613-f9c19ad4c130")
 		)
 		(instances
 			(project "Push Pin 3"
@@ -3930,7 +3930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SOT-23"
+		(property "Footprint" "NTR4101PT1G:SOT-23-3_1P4X3P040_ONS"
 			(at 58.42 40.64 0)
 			(effects
 				(font
@@ -4182,7 +4182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 30.48 48.26 0)
 			(effects
 				(font
@@ -4339,7 +4339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 33.02 90.17 0)
 			(effects
 				(font
@@ -4651,7 +4651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SOT-23"
+		(property "Footprint" "NTR4101PT1G:SOT-23-3_1P4X3P040_ONS"
 			(at 55.88 82.55 0)
 			(effects
 				(font
@@ -4837,7 +4837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SOT-23"
+		(property "Footprint" "NTR4101PT1G:SOT-23-3_1P4X3P040_ONS"
 			(at 55.88 119.38 0)
 			(effects
 				(font
@@ -5490,16 +5490,16 @@
 			(uuid "f8a9918b-df22-442d-8967-2042e74ee1fa")
 		)
 		(pin "5"
-			(uuid "5b8b472d-46ee-4815-956f-5a85bfa52cda")
+			(uuid "5b8b472d-46ee-4815-956f-5a85bfa52cdc")
 		)
 		(pin "4"
-			(uuid "e33e5a47-a109-4d50-a3bd-37dc7afa1894")
+			(uuid "e33e5a47-a109-4d50-a3bd-37dc7afa1896")
 		)
 		(pin "2"
 			(uuid "3e5efaaf-4235-4ecb-b22d-6fff4e75db3d")
 		)
 		(pin "6"
-			(uuid "78fc5403-340c-4162-9613-f9c19ad4c12f")
+			(uuid "78fc5403-340c-4162-9613-f9c19ad4c131")
 		)
 		(instances
 			(project "Push Pin 3"
@@ -6121,7 +6121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
 			(at 33.02 127 0)
 			(effects
 				(font
