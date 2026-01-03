@@ -1,4 +1,18 @@
-24658310824521115
+24667199674913880
+3mm header 2x1
+CONN_SD-44067-001_02_MOL
+
+
+0
+2
+2
+3mm header 2x1
+P3mm Header 2x1
+
+
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99393,20 +99407,41 @@ Varistor VF
 2
 2
 footprints
+CONN02_560020_MOL
+
+
+0
+4
+4
+footprints
+CONN_70545-xxxx_02_MOL
+
+705450001 
+0
+2
+2
+footprints
+CONN_SDA_43255-00XX_02_MOL
+
+
+0
+2
+2
+fyuu
 SOT-223_S_MCH
 
 MIC5209-4.2YS-TR 
 0
 4
 4
-footprints
+fyuu
 SOT-223_S_MCH-L
 
 MIC5209-4.2YS-TR 
 0
 4
 4
-footprints
+fyuu
 SOT-223_S_MCH-M
 
 MIC5209-4.2YS-TR 
