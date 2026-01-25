@@ -1,18 +1,4 @@
-24672501054121490
-3mm header 2x1
-CONN_SD-44067-001_02_MOL
-
-
-0
-2
-2
-3mm header 2x1
-P3mm Header 2x1
-
-
-0
-2
-2
+24663668292889594
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68526,27 +68512,6 @@ NTD20
 DPAK_369C_ONS-M
 
 NTD20N03L27T4G 
-0
-3
-3
-NTR4101PT1G
-SOT-23-3_1P4X3P040_ONS
-
-NTR4101PT1G 
-0
-3
-3
-NTR4101PT1G
-SOT-23-3_1P4X3P040_ONS-L
-
-NTR4101PT1G 
-0
-3
-3
-NTR4101PT1G
-SOT-23-3_1P4X3P040_ONS-M
-
-NTR4101PT1G 
 0
 3
 3
