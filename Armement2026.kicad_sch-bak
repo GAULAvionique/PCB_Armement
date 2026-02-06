@@ -2652,18 +2652,6 @@
 		(uuid bc5d65a2-00c5-40ac-8d2f-6675b1184863)
 	)
 	(rectangle
-		(start 161.29 59.182)
-		(end 213.106 87.63)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c9b130a1-a7a0-44f2-b9fd-6d1047aea5bc)
-	)
-	(rectangle
 		(start 17.272 87.376)
 		(end 54.61 109.474)
 		(stroke
@@ -2706,16 +2694,6 @@
 			)
 		)
 		(uuid "46e4d949-c951-4bad-bcae-e983999a3820")
-	)
-	(text "Blue Raven Shunt Motor"
-		(exclude_from_sim no)
-		(at 177.038 84.836 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4c89d57f-05cd-490d-8384-392db47bb875")
 	)
 	(text "Stratologger"
 		(exclude_from_sim no)
@@ -5017,7 +4995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SOT-223_S_MCH"
 			(at 37.338 160.782 0)
 			(effects
 				(font
