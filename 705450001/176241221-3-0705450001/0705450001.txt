@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-08042024-063674";"";
+"REFERENCE";"705450001";"";
+"TraceParts.PartTitle";"SL";"";
+"TraceParts.InstanceId";"90-08042024-0636742N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"2.54mm Pitch SL Header, Single Row 3.05mm Pocket Vertical, Shrouded, with Press-fit Plastic Peg, 2 Circuits, Tin (Sn) Plating";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.3";"";
