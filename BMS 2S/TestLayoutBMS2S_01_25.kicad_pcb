@@ -7122,6 +7122,54 @@
 		(layer "Cmts.User")
 		(uuid "fa2d398a-0a0c-44ed-994f-a719a7ad78a3")
 	)
+	(gr_text "BM2 Fil"
+		(at 133 124 0)
+		(layer "F.SilkS")
+		(uuid "7c03cd7b-7faf-49ea-bc49-9ab4fed33e10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "M2 mounting hole"
+		(at 147.5 117 0)
+		(layer "F.SilkS")
+		(uuid "9a9ac2ec-9330-427b-ab6c-03396689e6df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BM1\n"
+		(at 124 82 0)
+		(layer "F.SilkS")
+		(uuid "a7e0fa11-4306-4dcc-96ec-d46b9d3f3987")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+ - 1 + - 2\n"
+		(at 132.5 81.5 0)
+		(layer "F.SilkS")
+		(uuid "c5412cc2-1bf0-40a1-8b18-657856b6f3d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "B-2\n\n"
 		(at 139.25 90.25 0)
 		(layer "B.SilkS")
