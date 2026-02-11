@@ -3255,7 +3255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DMG2302UK-7"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -3265,7 +3265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "n-mosfet"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -4752,7 +4752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DMG2302UK-7"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf"
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -4762,7 +4762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "n-mosfet"
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -4963,7 +4963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DMG2302UK-7"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "n-mosfet"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -5310,7 +5310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "DMG2302UK-7"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf"
 			(at 238.76 81.28 0)
 			(effects
 				(font
@@ -5320,7 +5320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NMOS"
 			(at 238.76 81.28 0)
 			(effects
 				(font
