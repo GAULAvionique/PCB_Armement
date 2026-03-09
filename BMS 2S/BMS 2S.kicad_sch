@@ -3274,6 +3274,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "47b5c586-6ae8-4fe8-9bdc-a7141d6ab367")
 		)
@@ -3411,6 +3429,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 123.19 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 123.19 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f18e3d4c-cfe4-4343-9fbb-d8204d67e643")
 		)
@@ -3464,7 +3500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/705450001?display=pdf"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0705450001/1643366"
 			(at 205.74 45.72 0)
 			(effects
 				(font
@@ -3475,6 +3511,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "23-0705450001-ND"
+			(at 205.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" "0705450001"
 			(at 205.74 45.72 0)
 			(effects
 				(font
@@ -3535,7 +3589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 198.12 64.77 0)
 			(effects
 				(font
@@ -3545,6 +3599,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "-"
+			(at 198.12 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" "-"
 			(at 198.12 64.77 0)
 			(effects
 				(font
@@ -3683,6 +3755,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 53.34 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 53.34 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee4042ab-c076-43d0-9692-8a379652e234")
 		)
@@ -3745,6 +3835,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" ""
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -4134,7 +4242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 87.63 39.37 0)
 			(effects
 				(font
@@ -4144,6 +4252,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 87.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "-"
+			(at 87.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" "-"
 			(at 87.63 39.37 0)
 			(effects
 				(font
@@ -4201,7 +4327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 80.01 63.5 0)
 			(effects
 				(font
@@ -4211,6 +4337,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "-"
+			(at 80.01 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" "-"
 			(at 80.01 63.5 0)
 			(effects
 				(font
@@ -4400,7 +4544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 80.01 68.58 0)
 			(effects
 				(font
@@ -4410,6 +4554,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 80.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "-"
+			(at 80.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" "-"
 			(at 80.01 68.58 0)
 			(effects
 				(font
@@ -4484,6 +4646,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 59.69 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a36bc5ae-c684-4ef5-b324-f9cc834fbcdc")
 		)
@@ -4546,6 +4726,24 @@
 			)
 		)
 		(property "Description" "Ic pour BMS"
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -4700,6 +4898,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 240.03 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 240.03 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e02106fd-ed7b-4c3f-930c-8f9315161e11")
 		)
@@ -4763,6 +4979,24 @@
 			)
 		)
 		(property "Description" "n-mosfet"
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" ""
+			(at 238.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -4841,6 +5075,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 170.18 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 170.18 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bacb0ab6-76c1-4aba-be8f-25b9c7a509e6")
 		)
@@ -4902,6 +5154,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 67.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" ""
+			(at 67.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -4982,6 +5252,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "0b89f1ce-8f7c-4fab-8b84-5b0449f76867")
 		)
@@ -5037,7 +5325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 198.12 59.69 0)
 			(effects
 				(font
@@ -5047,6 +5335,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "-"
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" "-"
 			(at 198.12 59.69 0)
 			(effects
 				(font
@@ -5112,6 +5418,24 @@
 		)
 		(property "Description" "Resistor, US symbol"
 			(at 53.34 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" ""
+			(at 53.34 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 53.34 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,6 +5512,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36ac435a-24d0-42ef-a3b4-f5352e0836d2")
 		)
@@ -5249,6 +5591,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" ""
+			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -5329,6 +5689,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 238.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 238.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "31d340df-cb97-47d2-89c1-2806e68c2bb6")
 		)
@@ -5384,7 +5762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "-"
 			(at 207.01 36.83 0)
 			(effects
 				(font
@@ -5394,6 +5772,24 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "-"
+			(at 207.01 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" "-"
 			(at 207.01 36.83 0)
 			(effects
 				(font
@@ -5466,6 +5862,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey_Part_Number" ""
+			(at 170.18 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
+			(at 170.18 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "66435b3a-8ff7-4359-9e95-3f50f74be675")
 		)
@@ -5528,6 +5942,24 @@
 			)
 		)
 		(property "Description" "Ic pour BMS"
+			(at 232.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" ""
+			(at 232.41 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Product_Number" ""
 			(at 232.41 92.71 0)
 			(effects
 				(font
