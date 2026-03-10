@@ -774,6 +774,222 @@
 				)
 			)
 		)
+		(symbol "Screw_Terminal_01x02_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J6"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "footprints:CONN_70545-xxxx_02_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0705450001/1643366"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Fem Con" "https://www.digikey.ca/en/products/detail/molex/0015388020/505815"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey_Part_Number" "  23-0705450001-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacture_Part_Number" "  0705450001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:PMOS"
 			(pin_numbers hide)
 			(pin_names
@@ -1582,13 +1798,7 @@
 		(uuid "16ec4224-6e86-44d3-8805-707065b25cb0")
 	)
 	(junction
-		(at 30.21 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "185f83f7-dcac-4171-ac9d-136cfbb83348")
-	)
-	(junction
-		(at 68.58 167.64)
+		(at 92.71 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aae7f77-e3a2-441a-8c28-5272e836e112")
@@ -1612,22 +1822,16 @@
 		(uuid "4881d382-01d9-4b79-b2b9-cf919dfdfd35")
 	)
 	(junction
-		(at 68.58 184.15)
+		(at 92.71 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50b7b289-7c07-4fa8-967a-e80df6420677")
 	)
 	(junction
-		(at 61.96 184.15)
+		(at 86.09 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e5ca607-21af-4206-8937-aa3e5619c5f7")
-	)
-	(junction
-		(at 97.79 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61a975f9-837e-43c4-b454-73f5e3b5e074")
 	)
 	(junction
 		(at 60.96 31.75)
@@ -1648,10 +1852,10 @@
 		(uuid "70bbf27b-5ea4-4b96-b24b-03c79dfcc256")
 	)
 	(junction
-		(at 41.91 138.43)
+		(at 213.36 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81c0b16a-4858-4d6e-98d4-5137465fe7a3")
+		(uuid "720fa7b7-064d-4e9a-9fbd-630fc3528ad2")
 	)
 	(junction
 		(at 93.98 91.44)
@@ -1660,16 +1864,34 @@
 		(uuid "8da22a34-5585-41c8-8cef-4239ac844afc")
 	)
 	(junction
-		(at 185.42 67.31)
+		(at 130.81 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96fdcf9f-1be5-48e3-b26b-5cd65c998e2e")
+	)
+	(junction
+		(at 217.17 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b07a9c35-45c9-4a44-a5a0-acf62436fc12")
 	)
 	(junction
-		(at 86.36 120.65)
+		(at 97.79 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bd2b1fef-3c2b-4e04-bf67-b636ed7bf038")
+		(uuid "b1462c04-df76-4914-83e0-d15577b24b16")
+	)
+	(junction
+		(at 97.79 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9a44b1b-72bc-4945-acc5-85febe254a85")
+	)
+	(junction
+		(at 54.34 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec4933c-02d0-4a0a-ad39-fff67acfd4d6")
 	)
 	(junction
 		(at 53.34 50.8)
@@ -1678,13 +1900,25 @@
 		(uuid "d9b52b43-6fe7-4a24-8899-e711cdddb732")
 	)
 	(junction
+		(at 105.41 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de145a69-55d3-47b6-b785-214024adbc6c")
+	)
+	(junction
 		(at 114.3 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f352129c-551f-47e5-a55c-136890b78996")
 	)
 	(junction
-		(at 49.53 184.15)
+		(at 199.39 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f693d5da-ec1f-4716-bafb-977073008918")
+	)
+	(junction
+		(at 73.66 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb118369-2272-443a-b34d-81ca3e1700de")
@@ -1721,7 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 69.85) (xy 187.96 69.85)
+			(xy 217.17 95.25) (xy 219.71 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1731,27 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 123.19) (xy 86.36 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ead41dc-2e53-4198-a6ca-16451e43b04e")
-	)
-	(wire
-		(pts
-			(xy 81.28 176.53) (xy 81.28 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1267d9a4-7a04-4238-a3f1-db2c17642b62")
-	)
-	(wire
-		(pts
-			(xy 49.53 184.15) (xy 61.96 184.15)
+			(xy 73.66 184.15) (xy 86.09 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 184.15) (xy 68.58 184.15)
+			(xy 105.41 184.15) (xy 92.71 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1791,17 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.21 167.64) (xy 30.48 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18989a7a-99db-4f15-ab63-3ce847373aaf")
-	)
-	(wire
-		(pts
-			(xy 30.21 184.15) (xy 49.53 184.15)
+			(xy 54.34 184.15) (xy 73.66 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1821,13 +2025,33 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 167.64) (xy 68.58 167.64)
+			(xy 105.41 167.64) (xy 97.79 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1b6cce6b-3a5b-40f2-9ced-863eb12be12c")
+	)
+	(wire
+		(pts
+			(xy 217.17 90.17) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db2934f-b3e5-44f3-a9dc-dabaf1e815a7")
+	)
+	(wire
+		(pts
+			(xy 213.36 97.79) (xy 219.71 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd563ee-1514-4594-a21c-3456dc93af05")
 	)
 	(wire
 		(pts
@@ -1851,13 +2075,13 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 167.64) (xy 30.21 167.64)
+			(xy 97.79 147.32) (xy 111.76 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20c4ba18-9e71-4c69-a7d6-6f841040d6bf")
+		(uuid "259cd0d5-c875-4fd6-ac94-0b00e57b9538")
 	)
 	(wire
 		(pts
@@ -1921,7 +2145,17 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 67.31) (xy 185.42 67.31)
+			(xy 213.36 102.87) (xy 213.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fff515a-fc63-40e6-9863-21206e274dc9")
+	)
+	(wire
+		(pts
+			(xy 210.82 92.71) (xy 217.17 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +2165,17 @@
 	)
 	(wire
 		(pts
-			(xy 61.96 184.15) (xy 68.58 184.15)
+			(xy 191.77 97.79) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9c3327-b27e-47d5-8965-47fad10164ca")
+	)
+	(wire
+		(pts
+			(xy 86.09 184.15) (xy 92.71 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1981,7 +2225,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 167.64) (xy 81.28 173.99)
+			(xy 105.41 167.64) (xy 105.41 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2011,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 64.77) (xy 187.96 64.77)
+			(xy 199.39 87.63) (xy 219.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2021,17 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 135.89) (xy 97.79 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d37ec5b-9a3e-45a1-9c6f-2129ed973bfa")
-	)
-	(wire
-		(pts
-			(xy 179.07 72.39) (xy 187.96 72.39)
+			(xy 210.82 97.79) (xy 213.36 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2041,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 179.07) (xy 68.58 184.15)
+			(xy 92.71 179.07) (xy 92.71 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2071,13 +2305,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 69.85) (xy 168.91 69.85)
+			(xy 199.39 95.25) (xy 200.66 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54368134-82a9-44d3-858b-07cf86c72c8d")
+	)
+	(wire
+		(pts
+			(xy 36.83 167.64) (xy 54.34 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bafba43-c9e1-4348-92a8-399478078fc5")
 	)
 	(wire
 		(pts
@@ -2121,23 +2365,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 67.31) (xy 187.96 67.31)
+			(xy 217.17 90.17) (xy 219.71 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6c7bee2f-68aa-42c5-b110-ba18b08251d3")
-	)
-	(wire
-		(pts
-			(xy 86.36 128.27) (xy 97.79 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6de64c72-60e1-433c-819a-c65fc7be3293")
 	)
 	(wire
 		(pts
@@ -2171,6 +2405,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 142.24) (xy 140.97 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cea821-483d-4eb6-88fc-0f0a075a40eb")
+	)
+	(wire
+		(pts
 			(xy 53.34 41.91) (xy 60.96 41.91)
 		)
 		(stroke
@@ -2201,13 +2445,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 135.89) (xy 41.91 138.43)
+			(xy 97.79 144.78) (xy 97.79 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7bea6cc4-078e-4150-9e47-f5f071db59ed")
+		(uuid "7da67689-fa44-47d8-8d7d-68fb72e72523")
 	)
 	(wire
 		(pts
@@ -2231,7 +2475,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 167.64) (xy 68.58 171.45)
+			(xy 204.47 102.87) (xy 213.36 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a73bc4-3e41-4eef-8648-01f9cc1cd99c")
+	)
+	(wire
+		(pts
+			(xy 92.71 167.64) (xy 92.71 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2271,7 +2525,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 138.43) (xy 31.75 138.43)
+			(xy 25.4 138.43) (xy 41.91 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2281,13 +2535,23 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 106.68) (xy 78.74 106.68)
+			(xy 105.41 184.15) (xy 130.81 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97d8c34a-49ec-479a-a265-0cf1b92882e2")
+		(uuid "931b9ec8-cf12-403a-845c-5f0d02c5394c")
+	)
+	(wire
+		(pts
+			(xy 105.41 176.53) (xy 105.41 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97810379-e991-4924-b381-bacf00a4c435")
 	)
 	(wire
 		(pts
@@ -2301,7 +2565,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 64.77) (xy 167.64 69.85)
+			(xy 199.39 87.63) (xy 199.39 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2311,17 +2575,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 123.19) (xy 86.36 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "997eaa84-6b82-45d6-9e27-b11901b22c1d")
-	)
-	(wire
-		(pts
-			(xy 185.42 67.31) (xy 185.42 69.85)
+			(xy 217.17 92.71) (xy 217.17 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2331,13 +2585,43 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 123.19) (xy 97.79 128.27)
+			(xy 151.13 144.78) (xy 151.13 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a8a8d2ea-6610-40eb-9332-2f95e50eb408")
+	)
+	(wire
+		(pts
+			(xy 130.81 147.32) (xy 151.13 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab60e971-bef2-4553-85e9-69c065f7e7e4")
+	)
+	(wire
+		(pts
+			(xy 54.34 167.64) (xy 54.61 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa9b845-eb26-42c6-85ca-6fd53d94025b")
+	)
+	(wire
+		(pts
+			(xy 196.85 97.79) (xy 196.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b1dd02-f9ee-4c33-8a30-81f27c0a5da7")
 	)
 	(wire
 		(pts
@@ -2371,16 +2655,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 120.65) (xy 78.74 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc07f0b8-bcc9-40af-9357-533f6e3c056d")
-	)
-	(wire
-		(pts
 			(xy 53.34 39.37) (xy 53.34 41.91)
 		)
 		(stroke
@@ -2391,13 +2665,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 120.65) (xy 87.63 120.65)
+			(xy 97.79 147.32) (xy 97.79 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c1798fed-0215-41bd-9ce8-830f7eb547e7")
+		(uuid "c1ad92d6-f403-4769-b722-40cd9651f88c")
 	)
 	(wire
 		(pts
@@ -2408,16 +2682,6 @@
 			(type default)
 		)
 		(uuid "c1bdde76-83f5-4fda-ba17-49d06e34442f")
-	)
-	(wire
-		(pts
-			(xy 86.36 106.68) (xy 86.36 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac50e24-25b0-499f-9a0d-7a1e73448078")
 	)
 	(wire
 		(pts
@@ -2451,16 +2715,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 138.43) (xy 41.91 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3198e42-2fc8-4644-a4e0-f0915a047328")
-	)
-	(wire
-		(pts
 			(xy 114.3 81.28) (xy 114.3 82.55)
 		)
 		(stroke
@@ -2468,6 +2722,26 @@
 			(type default)
 		)
 		(uuid "d95edfdc-007f-4034-bc8e-39f813faf2a1")
+	)
+	(wire
+		(pts
+			(xy 119.38 147.32) (xy 130.81 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6078ea1-b7d6-4d87-afa7-a55fb5181834")
+	)
+	(wire
+		(pts
+			(xy 130.81 147.32) (xy 130.81 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e77c6cc3-2a1d-4817-ad3b-3e4de266d785")
 	)
 	(wire
 		(pts
@@ -2481,13 +2755,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 135.89) (xy 97.79 135.89)
+			(xy 191.77 95.25) (xy 199.39 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea2667e9-33d8-406a-9753-99f44d73f41c")
+		(uuid "f0006177-46b4-4fd6-9209-44b184516337")
 	)
 	(wire
 		(pts
@@ -2501,13 +2775,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 135.89) (xy 41.91 135.89)
+			(xy 25.4 167.64) (xy 29.21 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4418eb6-5568-4e9c-949b-d93281320c5b")
+		(uuid "f49ebbd1-61a4-4f4a-8d7c-aa89a6a27bb0")
 	)
 	(wire
 		(pts
@@ -2541,7 +2815,17 @@
 	)
 	(wire
 		(pts
-			(xy 61.96 175.26) (xy 61.96 184.15)
+			(xy 130.81 184.15) (xy 130.81 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabef22c-c00d-4af8-80c3-f45c053252f1")
+	)
+	(wire
+		(pts
+			(xy 86.09 175.26) (xy 86.09 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2561,7 +2845,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.21 184.15) (xy 30.21 175.26)
+			(xy 54.34 184.15) (xy 54.34 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2579,9 +2863,19 @@
 		)
 		(uuid "fdcd76b9-32ea-47ea-850a-d97ca47f110a")
 	)
+	(wire
+		(pts
+			(xy 97.79 167.64) (xy 92.71 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe754a40-2c75-469d-8716-570d0e5ea506")
+	)
 	(rectangle
 		(start 17.78 155.448)
-		(end 93.726 190.246)
+		(end 126.492 190.246)
 		(stroke
 			(width 0)
 			(type default)
@@ -2640,8 +2934,8 @@
 		(uuid 90c6ee86-b09d-4c35-9a3a-71cbb74d2e4f)
 	)
 	(rectangle
-		(start 62.484 98.298)
-		(end 112.014 132.588)
+		(start 74.93 124.714)
+		(end 157.734 152.908)
 		(stroke
 			(width 0)
 			(type default)
@@ -2652,8 +2946,8 @@
 		(uuid bc5d65a2-00c5-40ac-8d2f-6675b1184863)
 	)
 	(rectangle
-		(start 161.29 59.182)
-		(end 213.106 87.63)
+		(start 181.864 84.582)
+		(end 244.856 113.03)
 		(stroke
 			(width 0)
 			(type default)
@@ -2687,6 +2981,40 @@
 		)
 		(uuid d4b18c02-68b8-41f5-9a0a-19ff6bc54416)
 	)
+	(text "On soude 1 si on veut le strato, sinon on a le shunt motor"
+		(exclude_from_sim no)
+		(at 203.2 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09e1ddea-c396-49c0-98ae-e228b14874a9")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 115.824 150.876 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "1fadd1d6-7173-49bd-b0e8-fb771b5b29c2")
+	)
+	(text "1 "
+		(exclude_from_sim no)
+		(at 201.168 107.696 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "20d53119-b024-468c-b174-c1d113f67e83")
+	)
 	(text "Eggfinder mini"
 		(exclude_from_sim no)
 		(at 27.686 65.024 0)
@@ -2697,19 +3025,9 @@
 		)
 		(uuid "334426c0-a8d6-40ba-bd3f-0b67d0924b0d")
 	)
-	(text "1"
-		(exclude_from_sim no)
-		(at 81.788 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "46e4d949-c951-4bad-bcae-e983999a3820")
-	)
 	(text "Blue Raven Shunt Motor"
 		(exclude_from_sim no)
-		(at 177.038 84.836 0)
+		(at 222.758 82.804 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2717,25 +3035,47 @@
 		)
 		(uuid "4c89d57f-05cd-490d-8384-392db47bb875")
 	)
-	(text "Stratologger"
+	(text "3\n"
 		(exclude_from_sim no)
-		(at 69.342 100.076 0)
+		(at 103.124 163.83 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
-		(uuid "53789c27-2f33-480c-8019-678c28f20e67")
+		(uuid "5cf2370b-ee43-470c-8522-9b4591b2cc37")
 	)
-	(text "1"
+	(text "Stratologger x"
 		(exclude_from_sim no)
-		(at 35.306 135.89 0)
+		(at 202.184 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "6e19d41b-04cc-48d4-92b0-7320a86d1b5d")
+		(uuid "6329018f-76a7-4f71-bf87-699bd19ded20")
+	)
+	(text "On soude 3 si on veut le featherweigth sur sa propre switch\n"
+		(exclude_from_sim no)
+		(at 203.708 151.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a3767e3-834e-4884-be04-ce602099fbfb")
+	)
+	(text "Batterie featherweigth x strato"
+		(exclude_from_sim no)
+		(at 91.44 137.922 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "701c9f84-2971-4bd4-b0ee-2ed8cb9b6ebe")
 	)
 	(text "Featherweight"
 		(exclude_from_sim no)
@@ -2746,16 +3086,6 @@
 			)
 		)
 		(uuid "711ad6ed-90cb-4767-baaa-602fd8e4c3cc")
-	)
-	(text "2"
-		(exclude_from_sim no)
-		(at 82.55 104.394 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7a3ad00c-f018-4e94-9e48-c0fee86f724d")
 	)
 	(text "Batterie Custum 20Ah"
 		(exclude_from_sim no)
@@ -2777,25 +3107,27 @@
 		)
 		(uuid "8b3b663a-027d-4ed0-a96f-ef886de3a2fe")
 	)
+	(text "x Easymini"
+		(exclude_from_sim no)
+		(at 86.36 61.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9979e870-9a50-4f42-a4ab-f2eacc210937")
+	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 60.706 132.842 0)
+		(at 33.02 171.958 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
 			)
 		)
-		(uuid "957a6ad9-5ba4-40dd-89fc-b71873b01426")
-	)
-	(text "Si on veut l'ODB sur sa propre switch comme à l'IREC, on peut souder les 2\nSi on veut que ce soit le stratologger et que l'ODB soit avec les autres composantes comme à Far-out, on soude 1"
-		(exclude_from_sim no)
-		(at 126.746 142.748 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "95963724-6bd8-4acb-9434-688717e53398")
+		(uuid "9d4e7342-de33-4ca2-ac60-fbfcea301082")
 	)
 	(text "Blue Jay +"
 		(exclude_from_sim no)
@@ -2817,6 +3149,28 @@
 		)
 		(uuid "d441388d-7dd0-4b51-8036-ef113eb8ddf0")
 	)
+	(text "On soude 2, on va avoir le strato sur une switch et le featherweigth avec tout le reste du système"
+		(exclude_from_sim no)
+		(at 222.758 149.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f530ddd4-7979-44af-858e-70d96cd4e023")
+	)
+	(text "3\n"
+		(exclude_from_sim no)
+		(at 133.604 164.846 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f684f8d7-8be0-44a4-8614-d1236f944b36")
+	)
 	(text "Idefix\n"
 		(exclude_from_sim no)
 		(at 20.828 111.506 0)
@@ -2829,7 +3183,7 @@
 	)
 	(global_label "7v4"
 		(shape output)
-		(at 26.67 167.64 180)
+		(at 25.4 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2839,29 +3193,7 @@
 		)
 		(uuid "1f4f7d19-e326-4477-956c-49f5cd513125")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.2982 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "7v4"
-		(shape output)
-		(at 76.2 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25d669cf-503a-4120-8ead-f30566b1af0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.8282 106.68 0)
+			(at 19.0282 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,94 +3405,6 @@
 			(project "Armement2026"
 				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 82.55 106.68 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04e5b0be-3ac1-4f59-8d3d-b4f458678f3c")
-		(property "Reference" "JP3"
-			(at 82.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 82.55 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 82.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 82.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey_Part_Number" ""
-			(at 82.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture_Part_Number" ""
-			(at 82.55 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5afc746e-23b1-4b41-a91d-0f1324cf2934")
-		)
-		(pin "1"
-			(uuid "c46da74a-a3fb-4e12-bada-edd3bdf2a737")
-		)
-		(instances
-			(project "Armement2026"
-				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -3428,8 +3672,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 115.57 147.32 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "17c2e32e-f127-45fc-9ec0-b6526b233169")
+		(property "Reference" "JP6"
+			(at 114.2999 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 119.38 159.512 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" ""
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture_Part_Number" ""
+			(at 115.57 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8f498af-1bb8-445a-bb64-f218abbd9f30")
+		)
+		(pin "1"
+			(uuid "f7db8fd9-bbc8-4502-a3b5-d148e4a135e7")
+		)
+		(instances
+			(project "Armement2026"
+				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 193.04 69.85 0)
+		(at 224.79 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3438,7 +3771,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bf15c3c-c50c-479c-a8c4-e08e6e794ab7")
 		(property "Reference" "J10"
-			(at 195.58 69.8499 0)
+			(at 227.33 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3781,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 195.58 72.3899 0)
+			(at 227.33 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3791,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 193.04 69.85 0)
+			(at 224.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3800,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/adam-tech/EBAA-02-C/13586872"
-			(at 193.04 69.85 0)
+			(at 224.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3809,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 69.85 0)
+			(at 224.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3818,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" "2057-EBAA-02-C-ND"
-			(at 193.04 69.85 0)
+			(at 224.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +3827,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" "EBAA-02-C"
-			(at 193.04 69.85 0)
+			(at 224.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3852,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 86.36 173.99 0)
+		(at 110.49 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3527,7 +3860,7 @@
 		(dnp no)
 		(uuid "20229522-4c34-468e-8a1c-22e47d64cfa9")
 		(property "Reference" "J8"
-			(at 86.36 180.086 0)
+			(at 110.49 180.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +3868,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 86.36 180.34 0)
+			(at 110.49 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +3877,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 86.36 173.99 0)
+			(at 110.49 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +3886,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-K-S/926611"
-			(at 86.36 173.99 0)
+			(at 110.49 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3895,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 173.99 0)
+			(at 110.49 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3904,7 @@
 			)
 		)
 		(property "Fem Con" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/A02KR02KR26E102A/9920922"
-			(at 86.36 173.99 0)
+			(at 110.49 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3913,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" "  455-1704-ND"
-			(at 86.36 173.99 0)
+			(at 110.49 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3589,7 +3922,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" "  B2B-PH-K-S"
-			(at 86.36 173.99 0)
+			(at 110.49 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3613,8 +3946,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 92.71 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "224e39d7-d52f-4f43-a1a3-be0b6ed83e1a")
+		(property "Reference" "J7"
+			(at 90.17 144.7801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 90.17 142.2401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0022112022/172024?s=N4IgTCBcDaIOoFkwHYAMqC0A5AIiAugL5A"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "WM2700-ND"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture_Part_Number" "0022112022"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "wire" "https://www.digikey.ca/en/products/detail/molex/2177971021/14638004?s=N4IgTCBcDaIJwAYEFowEYDsG4bQ9yAcgCIgC6AvkA"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0572e142-c256-487d-989e-57f778891c7e")
+		)
+		(pin "1"
+			(uuid "71ffa969-a23e-4e81-a922-8349ee838a9a")
+		)
+		(instances
+			(project "Armement2026"
+				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 49.53 184.15 0)
+		(at 73.66 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3622,7 +4054,7 @@
 		(dnp no)
 		(uuid "283c1e6b-3580-431d-a513-b4403e7f8a23")
 		(property "Reference" "#PWR03"
-			(at 49.53 190.5 0)
+			(at 73.66 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3631,7 +4063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 188.214 0)
+			(at 73.66 188.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +4071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 184.15 0)
+			(at 73.66 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +4080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 184.15 0)
+			(at 73.66 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3657,7 +4089,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 184.15 0)
+			(at 73.66 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +4145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nextgen-components/1206B105K250JC/18676989"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -3959,6 +4391,185 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 200.66 102.87 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "32ffe07a-39f8-4213-aa52-3736668e5e90")
+		(property "Reference" "JP4"
+			(at 199.3899 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 204.47 115.062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" ""
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture_Part_Number" ""
+			(at 200.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d90838df-54e2-4c11-8532-50c5a88ffa07")
+		)
+		(pin "1"
+			(uuid "93811341-22a4-4da5-be79-56e1e1a63e9b")
+		)
+		(instances
+			(project "Armement2026"
+				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 224.79 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "337e8374-7e9f-4238-88b7-7bc80387b425")
+		(property "Reference" "J12"
+			(at 227.33 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 227.33 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/adam-tech/EBAA-02-C/13586872"
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "2057-EBAA-02-C-ND"
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture_Part_Number" "EBAA-02-C"
+			(at 224.79 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7616259-20b5-472a-aadb-6d139691d021")
+		)
+		(pin "1"
+			(uuid "d6a40cd6-09bf-441a-84de-69b84d4c5f95")
+		)
+		(instances
+			(project "Armement2026"
+				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 77.47 41.91 0)
 		(unit 1)
@@ -3994,7 +4605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nextgen-components/1206B105K250JC/18676989"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
 			(at 77.47 41.91 0)
 			(effects
 				(font
@@ -4056,7 +4667,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 68.58 175.26 0)
+		(at 92.71 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4064,7 +4675,7 @@
 		(dnp no)
 		(uuid "42f604ba-038e-4d8f-8299-1468632838a1")
 		(property "Reference" "C2"
-			(at 71.12 173.99 0)
+			(at 95.25 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4684,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 71.12 176.53 0)
+			(at 95.25 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4693,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 69.5452 179.07 0)
+			(at 93.6752 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4090,8 +4701,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nextgen-components/1206B105K250JC/18676989"
-			(at 68.58 175.26 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
+			(at 92.71 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 175.26 0)
+			(at 92.71 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4720,7 @@
 			)
 		)
 		(property "Digikey" "1276-1068-1-ND"
-			(at 68.58 175.26 0)
+			(at 92.71 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4729,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" "1276-1097-1-ND - Cut Tape (CT)"
-			(at 68.58 175.26 0)
+			(at 92.71 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4738,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" "CL31B105KAHNNNE"
-			(at 68.58 175.26 0)
+			(at 92.71 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,35 +4762,134 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 186.69 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bbbd846-b47f-4364-9dfe-abd90f98b748")
+		(property "Reference" "J9"
+			(at 184.15 96.5201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM02B-SRSS-TB/926694"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fem Con" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/A02SR02SR30K254A/9922173"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part_Number" "455-1788-1-ND - Cut Tape (CT)"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacture_Part_Number" "BM02B-SRSS-TB"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0985846-9907-4892-b92c-7e8eef0f539e")
+		)
+		(pin "2"
+			(uuid "adafc7d0-f859-444e-b027-1472d91a1dc7")
+		)
+		(instances
+			(project "Armement2026"
+				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 60.96 135.89 180)
+		(at 130.81 163.83 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "497ce59d-b678-4b09-8ea1-0255fe302033")
+		(uuid "661b04ad-afef-4291-bbb4-bee4014991aa")
 		(property "Reference" "JP5"
-			(at 60.96 129.54 0)
+			(at 133.35 162.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 60.96 132.08 0)
+			(at 118.618 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 60.96 135.89 0)
+			(at 130.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 135.89 0)
+			(at 130.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4907,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 60.96 135.89 0)
+			(at 130.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4916,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" ""
-			(at 60.96 135.89 0)
+			(at 130.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4925,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" ""
-			(at 60.96 135.89 0)
+			(at 130.81 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,10 +4934,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "b969fe7b-a902-4969-9aaf-f9125d967fb9")
+			(uuid "6928737d-f987-4e6e-bf43-796c6e8c729c")
 		)
 		(pin "1"
-			(uuid "89de2a1e-3e35-4276-a4d1-e7a9b97b51cd")
+			(uuid "da778c4f-36cb-4fa9-9c66-19ca41f1d976")
 		)
 		(instances
 			(project "Armement2026"
@@ -4239,45 +4949,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 72.39 123.19 180)
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 33.02 167.64 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49db0660-ce5e-49b6-96dc-8ca0f2d24b2a")
-		(property "Reference" "J7"
-			(at 69.85 121.9201 0)
+		(uuid "72e7ca27-aabf-40a8-9067-eba34ae9911b")
+		(property "Reference" "JP2"
+			(at 31.7499 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 72.39 116.84 0)
+		(property "Value" "SolderJumper_2_Open"
+			(at 36.83 179.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical"
-			(at 72.39 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM02B-SRSS-TB/926694"
-			(at 72.39 123.19 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,8 +4986,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 72.39 123.19 0)
+		(property "Datasheet" "~"
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,8 +4995,8 @@
 				(hide yes)
 			)
 		)
-		(property "Fem Con" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/A02SR02SR30K254A/9922173"
-			(at 72.39 123.19 0)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,8 +5004,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" "455-1788-1-ND - Cut Tape (CT)"
-			(at 72.39 123.19 0)
+		(property "Digikey_Part_Number" ""
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,115 +5013,25 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture_Part_Number" "BM02B-SRSS-TB"
-			(at 72.39 123.19 0)
+		(property "Manufacture_Part_Number" ""
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "2232d840-4f37-4a2b-a859-c2c7218500a8")
 		)
 		(pin "2"
-			(uuid "f2269bac-d54d-4389-90f4-33bcb9783a04")
+			(uuid "02a8a1f6-e33e-4754-a5a7-726194da3403")
+		)
+		(pin "1"
+			(uuid "686fe8aa-1e05-48c0-b9b9-8f5219e15f9d")
 		)
 		(instances
 			(project "Armement2026"
 				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 193.04 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59ea77fd-8f45-47d2-9b28-042c5f0b5330")
-		(property "Reference" "J9"
-			(at 195.58 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 195.58 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "RCJ_054:CUI_RCJ-054"
-			(at 193.04 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/same-sky-formerly-cui-devices/RCJ-054/408514"
-			(at 193.04 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey_Part_Number" "CP-1427-ND"
-			(at 193.04 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture_Part_Number" "  RCJ-054"
-			(at 193.04 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bd7b531b-262f-4773-b258-94748505aefe")
-		)
-		(pin "1"
-			(uuid "c60c6a37-732a-42e6-84d4-b97f262a710b")
-		)
-		(instances
-			(project ""
-				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
-					(reference "J9")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -4519,7 +5130,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 173.99 69.85 0)
+		(at 205.74 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4528,7 +5139,7 @@
 		(fields_autoplaced yes)
 		(uuid "992b227a-9353-4f1b-bac9-efbf69891406")
 		(property "Reference" "SW4"
-			(at 173.99 60.96 0)
+			(at 205.74 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +5148,7 @@
 			)
 		)
 		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 173.99 63.5 0)
+			(at 205.74 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +5157,7 @@
 			)
 		)
 		(property "Footprint" "Library:Omrun_SS-01GL13"
-			(at 173.99 80.01 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +5166,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/omron-electronics-inc-emc-div/SS-5GL13/369879"
-			(at 173.99 77.47 0)
+			(at 205.74 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +5175,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 173.99 69.85 0)
+			(at 205.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +5184,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" "  SW871-ND"
-			(at 173.99 69.85 0)
+			(at 205.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +5193,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" "  SS-5GL13"
-			(at 173.99 69.85 0)
+			(at 205.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +5221,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 30.21 171.45 0)
+		(at 54.34 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4618,7 +5229,7 @@
 		(dnp no)
 		(uuid "a00dfed2-2bd9-493c-87a8-c0eea2fec3c4")
 		(property "Reference" "C1"
-			(at 32.75 170.18 0)
+			(at 56.88 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +5238,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 32.75 172.72 0)
+			(at 56.88 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,7 +5247,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 31.1752 175.26 0)
+			(at 55.3052 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4644,8 +5255,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/nextgen-components/1206B105K250JC/18676989"
-			(at 30.21 171.45 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
+			(at 54.34 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4654,7 +5265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.21 171.45 0)
+			(at 54.34 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +5274,7 @@
 			)
 		)
 		(property "Digikey" "1276-1068-1-ND"
-			(at 30.21 171.45 0)
+			(at 54.34 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +5283,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" "1276-1097-1-ND - Cut Tape (CT)"
-			(at 30.21 171.45 0)
+			(at 54.34 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +5292,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" "CL31B105KAHNNNE"
-			(at 30.21 171.45 0)
+			(at 54.34 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +5333,7 @@
 				)
 			)
 		)
-		(property "Value" "NTR4101PT1G"
+		(property "Value" "DMP10H400SK3-13"
 			(at 53.34 27.94 90)
 			(effects
 				(font
@@ -4730,7 +5341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NTR4101PT1G:SOT-23-3_1P4X3P040_ONS"
+		(property "Footprint" "footprints3:TO252-DPAK-DMP10H400SK3_DIO"
 			(at 50.8 29.21 0)
 			(effects
 				(font
@@ -4739,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diodes-incorporated/DMP10H400SK3-13/3720092?s=N4IgTCBcDaICIFkAKBGADACQCxrQZQGkBmAWhSJAF0BfIA"
 			(at 66.04 34.29 0)
 			(effects
 				(font
@@ -4784,7 +5395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "NTR4101PT1GOSCT-ND"
+		(property "Digikey" "DMP10H400SK3-13"
 			(at 53.34 34.29 0)
 			(effects
 				(font
@@ -4793,7 +5404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" "NTR4101PT1GOSCT-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "DMP10H400SK3-13DICT-ND - Cut Tape (CT)"
 			(at 53.34 34.29 0)
 			(effects
 				(font
@@ -4802,7 +5413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture_Part_Number" "NTR4101PT1G"
+		(property "Manufacture_Part_Number" "  DMP10H400SK3-13"
 			(at 53.34 34.29 0)
 			(effects
 				(font
@@ -4895,6 +5506,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Screw_Terminal_01x02_1")
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 68.58 72.39 180)
 		(unit 1)
@@ -4993,7 +5605,7 @@
 	)
 	(symbol
 		(lib_id "librairie_gaul:LDO_4v2-MIC5209-4.2YS-TR")
-		(at 30.48 170.18 0)
+		(at 54.61 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5002,7 +5614,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc235bf3-f5a8-4ec7-b405-b2963fbe61fa")
 		(property "Reference" "U1"
-			(at 49.53 160.02 0)
+			(at 73.66 160.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5010,7 +5622,7 @@
 			)
 		)
 		(property "Value" "LDO_4v2-MIC5209-4.2YS-TR"
-			(at 49.53 162.56 0)
+			(at 73.66 162.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5018,7 +5630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 37.338 160.782 0)
+			(at 61.468 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +5640,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/microchip-technology/MIC5209-4-2YS-TR/1030430"
-			(at 37.846 157.734 0)
+			(at 61.976 157.734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 167.64 0)
+			(at 54.61 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5659,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" "MIC5209-4.2YS-CT-ND - Cut Tape (CT)"
-			(at 30.48 170.18 0)
+			(at 54.61 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +5668,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" "MIC5209-4.2YS-TR"
-			(at 30.48 170.18 0)
+			(at 54.61 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5168,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Value" "NTR4101PT1G"
+		(property "Value" "DMP10H400SK3-13"
 			(at 106.68 68.58 90)
 			(effects
 				(font
@@ -5176,7 +5788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NTR4101PT1G:SOT-23-3_1P4X3P040_ONS"
+		(property "Footprint" "footprints3:TO252-DPAK-DMP10H400SK3_DIO"
 			(at 104.14 69.85 0)
 			(effects
 				(font
@@ -5185,7 +5797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/NTR4101PT1G/687096?s=N4IgTCBcDaIHIBUBKAWAjABjQBQWg4gPIDKAwggLRwAiIAugL5A"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diodes-incorporated/DMP10H400SK3-13/3720092?s=N4IgTCBcDaICIFkAKBGADACQCxrQZQGkBmAWhSJAF0BfIA"
 			(at 119.38 74.93 0)
 			(effects
 				(font
@@ -5230,7 +5842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "NTR4101PT1GOSCT-ND"
+		(property "Digikey" "DMP10H400SK3-13"
 			(at 106.68 74.93 0)
 			(effects
 				(font
@@ -5239,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" "NTR4101PT1GOSCT-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "DMP10H400SK3-13DICT-ND"
 			(at 106.68 74.93 0)
 			(effects
 				(font
@@ -5248,7 +5860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacture_Part_Number" "NTR4101PT1G"
+		(property "Manufacture_Part_Number" "DMP10H400SK3-13"
 			(at 106.68 74.93 0)
 			(effects
 				(font
@@ -5373,96 +5985,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 35.56 138.43 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d48756fa-099b-4af9-8358-4cf53f68bb1c")
-		(property "Reference" "JP2"
-			(at 35.56 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 35.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey_Part_Number" ""
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacture_Part_Number" ""
-			(at 35.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df7ebc50-ff78-44d4-bd3c-42990f1bb37b")
-		)
-		(pin "1"
-			(uuid "72917835-06c6-4a12-942c-f96ac2a547bd")
-		)
-		(instances
-			(project "Armement2026"
-				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 92.71 120.65 0)
+		(at 146.05 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5471,7 +5995,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6ef3b0f-06e0-4b88-9b5c-c83a55704942")
 		(property "Reference" "SW2"
-			(at 92.71 111.76 0)
+			(at 146.05 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5480,7 +6004,7 @@
 			)
 		)
 		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 92.71 114.3 0)
+			(at 146.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5489,7 +6013,7 @@
 			)
 		)
 		(property "Footprint" "Library:Omrun_SS-01GL13"
-			(at 92.71 130.81 0)
+			(at 146.05 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5498,7 +6022,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/omron-electronics-inc-emc-div/SS-5GL13/369879"
-			(at 92.71 128.27 0)
+			(at 146.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5507,7 +6031,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 92.71 120.65 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +6040,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" "  SW871-ND"
-			(at 92.71 120.65 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5525,7 +6049,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" "  SS-5GL13"
-			(at 92.71 120.65 0)
+			(at 146.05 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,33 +6174,35 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 82.55 120.65 180)
+		(at 97.79 163.83 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "e8186126-8327-4f89-a429-93f1ad57394b")
-		(property "Reference" "JP4"
-			(at 82.55 114.3 0)
+		(uuid "e86f4fb5-1b62-457c-8dac-8154a2b2bbaa")
+		(property "Reference" "JP3"
+			(at 95.25 165.1001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 82.296 117.094 0)
+			(at 109.982 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 82.55 120.65 0)
+			(at 97.79 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,7 +6211,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 120.65 0)
+			(at 97.79 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +6220,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 82.55 120.65 0)
+			(at 97.79 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +6229,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" ""
-			(at 82.55 120.65 0)
+			(at 97.79 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +6238,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" ""
-			(at 82.55 120.65 0)
+			(at 97.79 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,15 +6247,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "52148eef-67ff-49f4-ab91-37452f7a9e88")
+			(uuid "38b229f8-4399-47ef-9ab1-61548c3cc4a6")
 		)
 		(pin "1"
-			(uuid "b2fb1342-bdcc-4269-aeae-ea8df2db94fa")
+			(uuid "9fb07261-3df8-43fb-b1ce-7fb4c2ae3bc6")
 		)
 		(instances
 			(project "Armement2026"
 				(path "/75f37201-9d05-405c-80c6-bd0a0a221457"
-					(reference "JP4")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -6013,7 +6539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "3mm header 2x1:CONN_SD-44067-001_02_MOL"
 			(at 143.51 72.39 0)
 			(effects
 				(font
