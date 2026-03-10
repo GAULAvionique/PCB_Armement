@@ -3255,7 +3255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZXMN4A06K.pdf"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diodes-incorporated/ZXMN4A06KTC/991923?s=N4IgTCBcDaIFoA0CyA5ALAQQAwDYDSIAugL5A"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -3274,7 +3274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "31-ZXMN4A06KTCCT-ND"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "  ZXMN4A06KTC"
 			(at 121.92 106.68 0)
 			(effects
 				(font
@@ -3411,7 +3411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF1206FG2K00/1758859"
 			(at 123.19 73.66 0)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "738-RMCF1206FG2K00CT-ND"
 			(at 123.19 73.66 90)
 			(effects
 				(font
@@ -3438,7 +3438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "RMCF1206FG2K00"
 			(at 123.19 73.66 90)
 			(effects
 				(font
@@ -3737,7 +3737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-07470RL/728934"
 			(at 53.34 93.98 0)
 			(effects
 				(font
@@ -3755,7 +3755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "311-470FRCT-ND"
 			(at 53.34 93.98 90)
 			(effects
 				(font
@@ -3764,7 +3764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "RC1206FR-07470RL"
 			(at 53.34 93.98 90)
 			(effects
 				(font
@@ -3825,7 +3825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/dfrobot/FIT0587/9559256"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -3843,7 +3843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "1738-1437-ND"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -3852,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "FIT0587"
 			(at 88.9 48.26 0)
 			(effects
 				(font
@@ -4628,7 +4628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C1206C104J5RACTU/411249"
 			(at 59.69 105.41 0)
 			(effects
 				(font
@@ -4646,7 +4646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "399-C1206C104J5RACTUCT-ND"
 			(at 59.69 105.41 0)
 			(effects
 				(font
@@ -4655,7 +4655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "C1206C104J5RACTU"
 			(at 59.69 105.41 0)
 			(effects
 				(font
@@ -4734,7 +4734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "1662-S-8252AAG-M6T1UCT-ND"
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -4743,7 +4743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "S-8252AAG-M6T1U"
 			(at 115.57 96.52 0)
 			(effects
 				(font
@@ -4880,7 +4880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/stackpole-electronics-inc/RMCF1206FG2K00/1758859"
 			(at 240.03 69.85 0)
 			(effects
 				(font
@@ -4898,7 +4898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "738-RMCF1206FG2K00CT-ND"
 			(at 240.03 69.85 90)
 			(effects
 				(font
@@ -4907,7 +4907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "RMCF1206FG2K00"
 			(at 240.03 69.85 90)
 			(effects
 				(font
@@ -4968,7 +4968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diodes-incorporated/DMG2302UK-7/6010142"
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -4987,7 +4987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "DMG2302UK-7DICT-ND"
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "DMG2302UK-7"
 			(at 238.76 102.87 0)
 			(effects
 				(font
@@ -5057,7 +5057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-07470RL/728934"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5075,7 +5075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "311-470FRCT-ND"
 			(at 170.18 76.2 90)
 			(effects
 				(font
@@ -5084,7 +5084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "RC1206FR-07470RL"
 			(at 170.18 76.2 90)
 			(effects
 				(font
@@ -5144,7 +5144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C1206C104J5RACTU/411249"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -5162,7 +5162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "399-C1206C104J5RACTUCT-ND"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -5171,7 +5171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "C1206C104J5RACTU"
 			(at 67.31 105.41 0)
 			(effects
 				(font
@@ -5223,7 +5223,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BMS_footprints:SOT23_DMG230_DIO"
+		(property "Footprint" "TO-252-2"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TO-252-2"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diodes-incorporated/ZXMN4A06KTC/991923?s=N4IgTCBcDaIFoA0CyA5ALAQQAwDYDSIAugL5A"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -5252,7 +5252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "31-ZXMN4A06KTCCT-ND"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -5261,7 +5261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "  ZXMN4A06KTC"
 			(at 121.92 85.09 0)
 			(effects
 				(font
@@ -5407,7 +5407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-07470RL/728934"
 			(at 53.34 80.01 0)
 			(effects
 				(font
@@ -5425,7 +5425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "311-470FRCT-ND"
 			(at 53.34 80.01 90)
 			(effects
 				(font
@@ -5434,7 +5434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "RC1206FR-07470RL"
 			(at 53.34 80.01 90)
 			(effects
 				(font
@@ -5494,7 +5494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C1206C104J5RACTU/411249"
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -5512,7 +5512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "399-C1206C104J5RACTUCT-ND"
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -5521,7 +5521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "C1206C104J5RACTU"
 			(at 184.15 101.6 0)
 			(effects
 				(font
@@ -5581,7 +5581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/kemet/C1206C104J5RACTU/411249"
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "399-C1206C104J5RACTUCT-ND"
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -5608,7 +5608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "C1206C104J5RACTU"
 			(at 176.53 101.6 0)
 			(effects
 				(font
@@ -5670,7 +5670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2302UK.pdf"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diodes-incorporated/DMG2302UK-7/6010142"
 			(at 238.76 81.28 0)
 			(effects
 				(font
@@ -5689,7 +5689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "DMG2302UK-7DICT-ND"
 			(at 238.76 81.28 0)
 			(effects
 				(font
@@ -5698,7 +5698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "DMG2302UK-7"
 			(at 238.76 81.28 0)
 			(effects
 				(font
@@ -5844,7 +5844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-07470RL/728934"
 			(at 170.18 90.17 0)
 			(effects
 				(font
@@ -5862,7 +5862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "311-470FRCT-ND"
 			(at 170.18 90.17 90)
 			(effects
 				(font
@@ -5871,7 +5871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "RC1206FR-07470RL"
 			(at 170.18 90.17 90)
 			(effects
 				(font
@@ -5950,7 +5950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part_Number" ""
+		(property "Digikey_Part_Number" "1662-S-8252AAG-M6T1UCT-ND"
 			(at 232.41 92.71 0)
 			(effects
 				(font
@@ -5959,7 +5959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Product_Number" ""
+		(property "Manufacturer_Product_Number" "S-8252AAG-M6T1U"
 			(at 232.41 92.71 0)
 			(effects
 				(font
