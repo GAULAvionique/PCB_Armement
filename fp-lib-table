@@ -1,4 +1,6 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "3mm header 2x1")(type "KiCad")(uri "${KIPRJMOD}/3mm header 2x1.pretty")(options "")(descr ""))
+	(version 7)
+	(lib (name "3mm header 2x1") (type "KiCad") (uri "${KIPRJMOD}/3mm header 2x1.pretty") (options "") (descr ""))
+	(lib (name "D2F-L3") (type "KiCad") (uri "${KIPRJMOD}/PCB_Armement_LC_2026/Library/D2F-L3.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/PCB_Armement_LC_2026/Library.pretty") (options "") (descr ""))
 )

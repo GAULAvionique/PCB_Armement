@@ -1,0 +1,113 @@
+(footprint "D2F-L3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8bd70ae7-13df-4230-a272-054b27d8955c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "D2F-L3"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de611014-23e9-45d9-83fb-575c4770795a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99eec376-236a-4534-893f-b56dbd49c0aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fc680f8-74f1-4998-9c08-f0f057b8c96b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.9 -1.32)
+		(end 2.9 11.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "086c15cb-500c-4f65-ae77-d3215c7bb9fe")
+	)
+	(fp_text user "D2F-L3"
+		(at -2.5 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b1270855-f827-4224-87d1-4321cf43259b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 10.16)
+		(size 1 1.5)
+		(drill oval 0.6 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "f73ee98b-10b2-4882-9945-245e1dcf6f45")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 5.08)
+		(size 1 1.5)
+		(drill oval 0.6 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "0a9b3312-bd78-4880-9363-fbc0019df589")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 0)
+		(size 1 1.5)
+		(drill oval 0.6 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "79d60e17-0681-4125-8ccb-55856b5d848b")
+	)
+	(embedded_fonts no)
+)
