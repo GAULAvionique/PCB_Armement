@@ -5183,6 +5183,28 @@
 				)
 			)
 		)
+		(property "Digikey_Part_Number" "WM1790-ND"
+			(at 264.16 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacture_Part_Number" "0430450412"
+			(at 264.16 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a3e133a2-26f9-408f-b12d-58dabd8de6df")
 		)
@@ -7173,6 +7195,28 @@
 				)
 			)
 		)
+		(property "Digikey_Part_Number" "WM1874-ND"
+			(at 97.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacture_Part_Number" "0436500603"
+			(at 97.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "d84eb899-8dfe-42c8-9f47-b951aee7e89a")
 		)
@@ -7260,6 +7304,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 273.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_Part_Number" "ED10565-ND"
+			(at 273.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacture_Part_Number" "OSTVN06A150"
 			(at 273.05 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8005,6 +8071,28 @@
 			)
 		)
 		(property "Conn" "https://www.digikey.ca/en/products/detail/molex/2147561062/12180332"
+			(at 78.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey_Part_Number" "WM1791-ND"
+			(at 78.74 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacture_Part_Number" "0430450612"
 			(at 78.74 69.85 0)
 			(hide yes)
 			(show_name no)
