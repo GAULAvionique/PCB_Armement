@@ -4705,7 +4705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "005b8545-2fcf-4299-a5df-619b893053ab")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 179.07 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4802,7 +4802,7 @@
 		(instances
 			(project "PCB_Armement_LC_2026"
 				(path "/b2f2aea0-7fdb-4ff4-8345-03c770ffdcbb"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5676,7 +5676,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d6b64bd-edd0-459c-915b-8576d245a89b")
-		(property "Reference" "PWR_R1"
+		(property "Reference" "R1"
 			(at 55.88 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5774,7 +5774,7 @@
 		(instances
 			(project "PCB_Armement_LC_2026"
 				(path "/b2f2aea0-7fdb-4ff4-8345-03c770ffdcbb"
-					(reference "PWR_R1")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6496,8 +6496,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5dd3f5df-ac23-4e23-8330-a13e6c373d66")
-		(property "Reference" "PWR_R2"
-			(at 156.21 40.64 0)
+		(property "Reference" "R2"
+			(at 156.21 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6508,7 +6508,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 156.21 43.18 0)
+			(at 156.21 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6593,7 +6593,7 @@
 		(instances
 			(project "PCB_Armement_LC_2026"
 				(path "/b2f2aea0-7fdb-4ff4-8345-03c770ffdcbb"
-					(reference "PWR_R2")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6687,7 +6687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f603fc4-ef61-48b5-910d-3af367af08a8")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 80.01 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6784,7 +6784,7 @@
 		(instances
 			(project "PCB_Armement_LC_2026"
 				(path "/b2f2aea0-7fdb-4ff4-8345-03c770ffdcbb"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
