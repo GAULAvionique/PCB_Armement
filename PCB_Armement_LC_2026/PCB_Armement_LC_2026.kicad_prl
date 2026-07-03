@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -48,9 +48,7 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_fffffffd_5fffffff",
     "zone_display_mode": 0
@@ -93,12 +91,12 @@
     "col_widths": [
       149,
       137,
-      98,
-      98,
-      98,
-      129,
-      95,
-      101,
+      123,
+      122,
+      123,
+      161,
+      119,
+      126,
       90,
       90
     ],
