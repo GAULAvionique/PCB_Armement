@@ -6126,7 +6126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Library:CONN_4365001002"
 			(at 99.06 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6137,7 +6137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-PH-K-S/926611"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/molex/0436500215/283461"
 			(at 99.06 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6170,7 +6170,7 @@
 				)
 			)
 		)
-		(property "Digikey_Part_Number" "  455-1704-ND"
+		(property "Digikey_Part_Number" "  WM1917-ND"
 			(at 99.06 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -6181,7 +6181,7 @@
 				)
 			)
 		)
-		(property "Manufacture_Part_Number" "  B2B-PH-K-S"
+		(property "Manufacture_Part_Number" "0436500215"
 			(at 99.06 170.18 0)
 			(hide yes)
 			(show_name no)
