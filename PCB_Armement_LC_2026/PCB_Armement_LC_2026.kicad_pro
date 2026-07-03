@@ -526,7 +526,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -606,6 +606,12 @@
         },
         {
           "group_by": false,
+          "label": "Manufacture_Part_Number",
+          "name": "Manufacture_Part_Number",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
@@ -632,12 +638,6 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacture_Part_Number",
-          "name": "Manufacture_Part_Number",
           "show": false
         },
         {

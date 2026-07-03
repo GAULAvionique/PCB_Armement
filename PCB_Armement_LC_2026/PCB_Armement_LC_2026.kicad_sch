@@ -4742,7 +4742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KBHNFNE/3891177"
 			(at 176.53 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4764,7 +4764,7 @@
 				)
 			)
 		)
-		(property "Digikey_Part_Number" "1276-1097-1-ND"
+		(property "Digikey_Part_Number" "1276-3091-1-ND"
 			(at 176.53 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4775,7 +4775,7 @@
 				)
 			)
 		)
-		(property "Manufacture_Part_Number" "CL31B105KAHNNNE"
+		(property "Manufacture_Part_Number" "CL31B105KBHNFNE"
 			(at 176.53 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4845,7 +4845,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KBHNFNE/3891177"
 			(at 81.28 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -4867,7 +4867,7 @@
 				)
 			)
 		)
-		(property "Digikey_Part_Number" "1276-1097-1-ND"
+		(property "Digikey_Part_Number" "1276-3091-1-ND"
 			(at 81.28 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -4878,7 +4878,7 @@
 				)
 			)
 		)
-		(property "Manufacture_Part_Number" "CL31B105KAHNNNE"
+		(property "Manufacture_Part_Number" "CL31B105KBHNFNE"
 			(at 81.28 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -5957,7 +5957,7 @@
 				)
 			)
 		)
-		(property "Manufacture_Part_Number" "  DMP10H400SK3-13"
+		(property "Manufacture_Part_Number" "DMP10H400SK3-13"
 			(at 53.34 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6647,7 +6647,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KBHNFNE/3891177"
 			(at 77.47 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6669,7 +6669,7 @@
 				)
 			)
 		)
-		(property "Digikey_Part_Number" "1276-1097-1-ND"
+		(property "Digikey_Part_Number" "1276-3091-1-ND"
 			(at 77.47 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6680,7 +6680,7 @@
 				)
 			)
 		)
-		(property "Manufacture_Part_Number" "CL31B105KAHNNNE"
+		(property "Manufacture_Part_Number" "CL31B105KBHNFNE"
 			(at 77.47 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7323,7 +7323,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KAHNNNE/3886755"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/samsung-electro-mechanics/CL31B105KBHNFNE/3891177"
 			(at 42.91 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7345,7 +7345,7 @@
 				)
 			)
 		)
-		(property "Digikey_Part_Number" "1276-1097-1-ND"
+		(property "Digikey_Part_Number" "1276-3091-1-ND"
 			(at 42.91 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7356,7 +7356,7 @@
 				)
 			)
 		)
-		(property "Manufacture_Part_Number" "CL31B105KAHNNNE"
+		(property "Manufacture_Part_Number" "CL31B105KBHNFNE"
 			(at 42.91 167.64 0)
 			(hide yes)
 			(show_name no)
