@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "bcaf07d2-8e0e-41a5-9156-8c0d20297928")
+		(uuid "3eb02389-83b8-4d02-8e19-fefdbdf39709")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8d6acb9f-e6c7-4118-8c02-649aa473acf0")
+		(uuid "44c5ca84-d09c-4db3-a159-e5e04d715900")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c4016a43-d162-40dc-abc0-79996d5cc28a")
+		(uuid "929a05dc-bbc0-43f9-bec3-0dd1acae1f71")
 		(effects
 			(font
 				(size 1 1)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e0c2bd65-4eb3-4d9d-84fe-638149705817")
+		(uuid "19d5695a-d481-4840-90b3-97efbef8e07d")
 		(effects
 			(font
 				(size 1 1)
@@ -60,7 +60,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4c55799d-ac70-40f3-9a11-c60b639c2be0")
+		(uuid "775aba49-9373-45e2-8db5-77c0219f7d78")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +73,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d08fcd8e-1b70-49f4-bafb-9287e27e3b5e")
+		(uuid "24f4f7d9-adc3-4bb2-a321-d5d0b66cc169")
 		(effects
 			(font
 				(size 1 1)
@@ -90,22 +90,22 @@
 		(start -2.9 -1.32)
 		(end 2.9 11.48)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "4b9d0fab-a910-4d6b-9059-479c504ff220")
+		(uuid "db8944e9-6c95-4e20-a9f5-daa37616e477")
 	)
 	(fp_text user "D2F-L3"
 		(at -2.5 3 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "dea62612-f0c7-4cb4-ab79-c99e071a4b22")
+		(uuid "1b805682-a890-4d9f-aeef-b019e04eece1")
 		(effects
 			(font
 				(size 0.8 0.8)
-				(thickness 0.1)
+				(thickness 0.2)
 				(bold yes)
 			)
 			(justify left bottom)
@@ -118,7 +118,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "a15aa58c-b3aa-421f-a06c-7fb02cf6dafb")
+		(uuid "94de865d-e041-493f-8a41-f0fd83eb07a8")
 	)
 	(pad "2" thru_hole roundrect
 		(at 0 5.08)
@@ -127,7 +127,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "0404c3dc-f009-4796-9c92-09e1f7347bde")
+		(uuid "94843ea5-1368-4a9a-95a9-393866803634")
 	)
 	(pad "3" thru_hole roundrect
 		(at 0 0)
@@ -136,7 +136,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.15)
-		(uuid "7eb29a64-abe3-416d-90b3-65c19f054032")
+		(uuid "8818d22f-5cbd-4332-8838-120a26da2d4f")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/step files/D2F-L3.step"

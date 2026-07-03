@@ -2724,6 +2724,10 @@
 		(color 0 0 0 0)
 		(uuid "fc512b13-b0ae-4f74-a65b-c78a076ad11a")
 	)
+	(no_connect
+		(at 128.27 29.21)
+		(uuid "df5e6e67-06c6-4648-8530-1f85000dbb73")
+	)
 	(wire
 		(pts
 			(xy 95.25 29.21) (xy 77.47 29.21)
@@ -2773,16 +2777,6 @@
 			(type default)
 		)
 		(uuid "0c242518-e5f7-4de0-8873-1f0d9ea8275b")
-	)
-	(wire
-		(pts
-			(xy 116.84 24.13) (xy 124.46 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c41f0b2-4a27-403a-aeff-b2204b434133")
 	)
 	(wire
 		(pts
@@ -2923,6 +2917,16 @@
 			(type default)
 		)
 		(uuid "2e5d524b-3ed9-4b37-879c-a9090ec78d1f")
+	)
+	(wire
+		(pts
+			(xy 138.43 26.67) (xy 148.59 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8f08c1-0873-477d-ab40-fc944a15ee3b")
 	)
 	(wire
 		(pts
@@ -3366,6 +3370,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 24.13) (xy 128.27 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d3a0837-d9f1-4910-aaa5-b4be5950419e")
+	)
+	(wire
+		(pts
 			(xy 39.37 135.89) (xy 39.37 142.24)
 		)
 		(stroke
@@ -3743,16 +3757,6 @@
 			(type default)
 		)
 		(uuid "da7fab0e-f688-4adc-a435-9ce4e1018e91")
-	)
-	(wire
-		(pts
-			(xy 134.62 26.67) (xy 148.59 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddf67274-dddd-493a-bf24-faed8119dc37")
 	)
 	(wire
 		(pts
@@ -4760,18 +4764,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-1068-1-ND"
-			(at 176.53 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey_Part_Number" "1276-1097-1-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "1276-1097-1-ND"
 			(at 176.53 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4874,18 +4867,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-1068-1-ND"
-			(at 81.28 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey_Part_Number" "1276-1097-1-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "1276-1097-1-ND"
 			(at 81.28 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -4967,7 +4949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/dfrobot/FIT0587/9559256"
+		(property "Datasheet" "https://www.amazon.ca/XT60PW-Female-Connector-Adapter-Battery/dp/B07VRLQ2C5/ref=asc_df_B07VRLQ2C5?mcid=3dd86addaa2e3fb2a7b29c8dbc1ed5a9&tag=googleshopc0c-20&linkCode=df0&hvadid=706724917401&hvpos=&hvnetw=g&hvrand=13998510815520112961&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1002498&hvtargid=pla-2191280428257&psc=1&hvocijid=13998510815520112961-B07VRLQ2C5-&hvexpln=0&gad_source=1"
 			(at 21.59 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -4989,7 +4971,7 @@
 				)
 			)
 		)
-		(property "Digikey_Part_Number" "  1738-1437-ND"
+		(property "Digikey_Part_Number" ""
 			(at 21.59 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5000,7 +4982,7 @@
 				)
 			)
 		)
-		(property "Manufacture_Part_Number" "  FIT0587"
+		(property "Manufacture_Part_Number" ""
 			(at 21.59 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5381,7 +5363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/adam-tech/EBAA-02-C/13586872"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/molex/0430450212/252502"
 			(at 111.76 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5374,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 2 position"
 			(at 111.76 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5403,7 +5385,7 @@
 				)
 			)
 		)
-		(property "Digikey_Part_Number" "2057-EBAA-02-C-ND"
+		(property "Digikey_Part_Number" "WM1789-ND"
 			(at 111.76 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5414,7 +5396,7 @@
 				)
 			)
 		)
-		(property "Manufacture_Part_Number" "EBAA-02-C"
+		(property "Manufacture_Part_Number" "0430450212"
 			(at 111.76 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -5572,7 +5554,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SZMMSZ4679T1G"
+		(property "Value" "MMSZ4683-TP"
 			(at 64.262 36.322 90)
 			(hide yes)
 			(show_name no)
@@ -5595,7 +5577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/SZMMSZ4679T1G/5404986?s=N4IgTCBcDaIMoC0CyTEBYBsB2AnAFQEYBxAeTgGE8BaAOQBEQBdAXyA"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/mcc-micro-commercial-components/MMSZ4683-TP/2345537"
 			(at 60.96 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5617,18 +5599,7 @@
 				)
 			)
 		)
-		(property "Digikey" "SZMMSZ4679T1GOSCT-ND"
-			(at 60.96 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey_Part_Number" "SZMMSZ4679T1GOSCT-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "MMSZ4683-TPMSCT-ND"
 			(at 60.96 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5732,18 +5703,7 @@
 				)
 			)
 		)
-		(property "Digikey" "  541-100KUTR-ND"
-			(at 53.34 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey_Part_Number" "541-100KUCT-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "541-100KUCT-ND"
 			(at 53.34 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5986,18 +5946,7 @@
 				)
 			)
 		)
-		(property "Digikey" "DMP10H400SK3-13"
-			(at 53.34 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey_Part_Number" "DMP10H400SK3-13DICT-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "DMP10H400SK3-13DICT-ND"
 			(at 53.34 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6433,17 +6382,6 @@
 				)
 			)
 		)
-		(property "Digikey" "DMP10H400SK3-13"
-			(at 153.67 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Digikey_Part_Number" "DMP10H400SK3-13DICT-ND"
 			(at 153.67 29.21 0)
 			(hide yes)
@@ -6551,18 +6489,7 @@
 				)
 			)
 		)
-		(property "Digikey" "  541-100KUTR-ND"
-			(at 153.67 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey_Part_Number" "541-100KUCT-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "541-100KUCT-ND"
 			(at 153.67 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6742,18 +6669,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-1068-1-ND"
-			(at 77.47 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey_Part_Number" "1276-1097-1-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "1276-1097-1-ND"
 			(at 77.47 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7292,7 +7208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/on-shore-technology-inc/OSTVN06A150/1588866?s=N4IgTCBcDaIKIBECMAGArANjQWgHIJAF0BfIA"
 			(at 273.05 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7429,18 +7345,7 @@
 				)
 			)
 		)
-		(property "Digikey" "1276-1068-1-ND"
-			(at 42.91 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey_Part_Number" "1276-1097-1-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "1276-1097-1-ND"
 			(at 42.91 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -7672,7 +7577,7 @@
 	(symbol
 		(lib_name "SW_Nidec_CAS-120A1_1")
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 129.54 24.13 0)
+		(at 133.35 26.67 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7680,10 +7585,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4066b9a-3e98-403e-a27b-befc70252e9c")
 		(property "Reference" "SW2"
-			(at 129.54 15.24 0)
+			(at 133.35 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7694,7 +7598,7 @@
 			)
 		)
 		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 129.54 17.78 0)
+			(at 133.35 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7705,7 +7609,7 @@
 			)
 		)
 		(property "Footprint" "Library:D2F-L3"
-			(at 129.54 34.29 0)
+			(at 133.35 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7716,7 +7620,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/omron-electronics-inc-emc-div/D2F-L3/368475"
-			(at 129.54 31.75 0)
+			(at 133.35 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7727,7 +7631,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 129.54 24.13 0)
+			(at 133.35 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7738,7 +7642,7 @@
 			)
 		)
 		(property "Digikey_Part_Number" "SW1093-ND"
-			(at 129.54 24.13 0)
+			(at 133.35 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7749,7 +7653,7 @@
 			)
 		)
 		(property "Manufacture_Part_Number" "D2F-L3"
-			(at 129.54 24.13 0)
+			(at 133.35 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8344,7 +8248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SZMMSZ4679T1G"
+		(property "Value" "MMSZ4683-TP"
 			(at 162.814 34.036 90)
 			(hide yes)
 			(show_name no)
@@ -8367,7 +8271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/SZMMSZ4679T1G/5404986?s=N4IgTCBcDaIMoC0CyTEBYBsB2AnAFQEYBxAeTgGE8BaAOQBEQBdAXyA"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/mcc-micro-commercial-components/MMSZ4683-TP/2345537"
 			(at 161.29 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8389,18 +8293,7 @@
 				)
 			)
 		)
-		(property "Digikey" "SZMMSZ4679T1GOSCT-ND"
-			(at 161.29 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey_Part_Number" "SZMMSZ4679T1GOSCT-ND - Cut Tape (CT)"
+		(property "Digikey_Part_Number" "MMSZ4683-TPMSCT-ND"
 			(at 161.29 31.75 0)
 			(hide yes)
 			(show_name no)
